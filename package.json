@@ -1,0 +1,31 @@
+{
+  "name": "alpha-trivia",
+  "version": "1.0.0",
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@types/axios": "^0.14.0",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "@types/react-redux": "^7.0.6",
+    "@types/redux-thunk": "^2.1.0",
+    "@types/uuid": "^3.4.4",
+    "axios": "^0.18.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "redux-devtools": "^3.5.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.4.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "build": ".\\node_modules\\.bin\\webpack",
+    "watch": ".\\node_modules\\.bin\\webpack --watch"
+  }
+}

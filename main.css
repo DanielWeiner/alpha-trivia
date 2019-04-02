@@ -1,0 +1,24 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#wrapper {
+    align-self: flex-start;
+    width: 100%;
+}
+#wrapper.vertically-centered {
+    align-self: center;
+}
+.quiz-header {
+    padding: 0 1em;
+}
+.quiz-content {
+    margin: 0 1em;
+}
+.answer-icon {
+    position: absolute;
+    font-weight: bold;
+    right: .5em;
+}
